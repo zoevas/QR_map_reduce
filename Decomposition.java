@@ -6,8 +6,8 @@
  * functions and one reduce function. The algorithm is in paper 
  * "Direct QR factorizations for tall-and-skinny matrices in
  * MapReduce architectures"
- * @author Vasileiou Zoi, Kiamilis Nikolaos
- * @version 1.0 1/22/14
+ * @author Vasileiou Zoi
+ * @version 1.0 
  */
 
 package org.myorg;
