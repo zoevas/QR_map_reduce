@@ -13,11 +13,11 @@ How to run
 
 2) Create the executable
 
-  jar -cvf Decomposition.jar -C classes/ .
+    jar -cvf Decomposition.jar -C classes/ .
 
 3) Run
 
-   bin/hadoop jar Decomposition.jar org.myorg.Decomposition my_input my_output
+    bin/hadoop jar Decomposition.jar org.myorg.Decomposition my_input my_output
 
 
 Prerequisites
