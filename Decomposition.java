@@ -34,7 +34,7 @@ import java.io.IOException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-//Library which performs th QR decomposition is the Jama library http://math.nist.gov/javanumerics/jama/
+//Library which performs the QR decomposition is the Jama library http://math.nist.gov/javanumerics/jama/
 import Jama.Matrix;
 import Jama.QRDecomposition;
 
