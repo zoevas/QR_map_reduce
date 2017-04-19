@@ -9,15 +9,15 @@ How to run
 -----------
 1) Compile
 
-javac -classpath hadoop-0.18.3-core.jar:commons-logging-1.1.3.jar:Jama-1.0.3.jar -d classes Decomposition.java
+    javac -classpath hadoop-0.18.3-core.jar:commons-logging-1.1.3.jar:Jama-1.0.3.jar -d classes Decomposition.java
 
 2) Create the executable
 
-jar -cvf Decomposition.jar -C classes/ .
+  jar -cvf Decomposition.jar -C classes/ .
 
 3) Run
 
-bin/hadoop jar Decomposition.jar org.myorg.Decomposition my_input my_output
+   bin/hadoop jar Decomposition.jar org.myorg.Decomposition my_input my_output
 
 
 Prerequisites
